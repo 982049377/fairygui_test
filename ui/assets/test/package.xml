@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <packageDescription id="vw6d70cl" jpegQuality="80" compressPNG="true">
   <resources>
-    <image id="rvea1" name="i0.png" path="/"/>
-    <image id="rvea2" name="i1.png" path="/"/>
-    <image id="rvea3" name="i2.png" path="/"/>
-    <image id="rvea4" name="i3.png" path="/"/>
-    <image id="rvea5" name="i4.png" path="/" scale=""/>
-    <image id="rvea6" name="i5.png" path="/"/>
-    <image id="rvea7" name="i6.png" path="/"/>
-    <image id="rvea8" name="i7.png" path="/"/>
-    <image id="rvea9" name="i8.png" path="/"/>
-    <image id="rveaa" name="i9.png" path="/"/>
-    <image id="rveab" name="bag@atlas0.png" path="/"/>
+    <image id="rvea1" name="i0.png" path="/asset/"/>
+    <image id="rvea2" name="i1.png" path="/asset/"/>
+    <image id="rvea3" name="i2.png" path="/asset/"/>
+    <image id="rvea4" name="i3.png" path="/asset/"/>
+    <image id="rvea5" name="i4.png" path="/asset/"/>
+    <image id="rvea6" name="i5.png" path="/asset/"/>
+    <image id="rvea7" name="i6.png" path="/asset/"/>
+    <image id="rvea8" name="i7.png" path="/asset/"/>
+    <image id="rvea9" name="i8.png" path="/asset/"/>
+    <image id="rveaa" name="i9.png" path="/asset/"/>
+    <image id="rveab" name="bag@atlas0.png" path="/asset/" scale="9grid" scale9grid="100,4,93,100"/>
     <component id="qqeac" name="index.xml" path="/" exported="true"/>
+    <component id="d7l6d" name="content.xml" path="/"/>
   </resources>
   <publish name="test1" path="C:\Users\王恒尊\Desktop\demo\textGame\resource\assets" genCode="true"/>
 </packageDescription>
