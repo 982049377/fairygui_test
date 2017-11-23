@@ -1,2 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<component size="1080,1920"/>
+<component size="1080,1920" designImageLayer="1">
+  <displayList>
+    <image id="n6_d7l6" name="n6" src="rvea4" xy="-9,0" size="1080,1920">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_d7l6" name="n1" src="rvea2" xy="354,16" size="300,300">
+      <relation target="n5_d7l6" sidePair="bottom-top"/>
+      <relation target="n6_d7l6" sidePair="topext-top"/>
+    </image>
+    <image id="n2_d7l6" name="n2" src="rvea2" xy="45,318" size="300,300">
+      <relation target="n5_d7l6" sidePair="right-left"/>
+      <relation target="n6_d7l6" sidePair="leftext-left"/>
+    </image>
+    <image id="n3_d7l6" name="n3" src="rvea2" xy="745,320" size="300,300">
+      <relation target="n5_d7l6" sidePair="left-right"/>
+      <relation target="n6_d7l6" sidePair="rightext-right"/>
+    </image>
+    <image id="n4_d7l6" name="n4" src="rvea2" xy="353,644" size="300,300">
+      <relation target="" sidePair="top-bottom"/>
+      <relation target="n6_d7l6" sidePair="bottomext-bottom"/>
+    </image>
+    <text id="n5_d7l6" name="n5" xy="349,342" size="396,249" fontSize="44" text="1233333333333&#xA;55555555555555&#xA;5555555555555555&#xA;333333333333333q&#xA;weqwewq&#xA;"/>
+  </displayList>
+  <relation target="" sidePair="width-width,height-height"/>
+</component>
