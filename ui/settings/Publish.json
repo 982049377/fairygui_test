@@ -1,0 +1,13 @@
+{
+	"codeGeneration":{
+		"classNamePrefix":"UI_",
+		"codePath":"C:\\Users\\王恒尊\\Desktop\\demo\\textGame\\resource\\assets",
+		"getMemberByName":false,
+		"ignoreNoname":false,
+		"memberNamePrefix":"m_",
+		"packageName":""
+	},
+	"fileExtension":"",
+	"packageCount":2,
+	"path":"C:\\Users\\王恒尊\\Desktop\\demo\\textGame\\resource\\assets"
+}
