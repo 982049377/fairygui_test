@@ -98,8 +98,8 @@ class Main extends egret.DisplayObjectContainer {
             // fairygui.GRoot.inst.height = 1920;
             // fairygui.GRoot.inst.x = 0;
             // fairygui.GRoot.inst.y = 0;
-            fairygui.UIPackage.addPackage("test1");
-            let comp = fairygui.UIPackage.createObject("test", "index") as fairygui.GComponent;
+            fairygui.UIPackage.addPackage("kingkong");
+            let comp = fairygui.UIPackage.createObject("kingkong", "index") as fairygui.GComponent;
             fairygui.GRoot.inst.addChild(comp);
             this.addChild(fairygui.GRoot.inst.displayObject);
 
@@ -129,6 +129,13 @@ class Main extends egret.DisplayObjectContainer {
             }, this)
             // console.log(fairygui.GRoot.inst.displayObject.width);
             // console.log(fairygui.GRoot.inst.displayObject.height);
+
+            let n2 = comp.getChild("n2");
+            n2.displayObject.touchEnabled = true;
+            n2.displayObject.addEventListener(egret.TouchEvent.TOUCH_TAP, () => {
+                let rankPanel = new RankPanel();
+                this.addChild(rankPanel);
+            }, this)
         }
     }
 

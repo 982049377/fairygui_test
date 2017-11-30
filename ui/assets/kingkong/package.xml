@@ -12,9 +12,19 @@
     <image id="rvea9" name="i8.png" path="/asset/"/>
     <image id="rveaa" name="i9.png" path="/asset/"/>
     <image id="rveab" name="bag@atlas0.png" path="/asset/" scale="9grid" scale9grid="100,4,93,100"/>
-    <component id="qqeac" name="index.xml" path="/" exported="true"/>
+    <component id="qqeac" name="index.xml" path="/"/>
     <component id="d7l6d" name="content.xml" path="/"/>
     <component id="d7l6e" name="contentBorder.xml" path="/"/>
+    <image id="urqxf" name="buttonSelect.png" path="/asset/"/>
+    <image id="urqxg" name="first.png" path="/asset/"/>
+    <image id="urqxh" name="other.png" path="/rankasset/"/>
+    <image id="urqxi" name="rankItemBorder.png" path="/rankasset/"/>
+    <image id="urqxj" name="rankTitle.png" path="/rankasset/"/>
+    <image id="urqxk" name="second.png" path="/rankasset/"/>
+    <image id="urqxl" name="self.png" path="/rankasset/"/>
+    <image id="urqxm" name="third.png" path="/rankasset/"/>
+    <component id="urqxn" name="rankPanel.xml" path="/" exported="true"/>
+    <component id="urqxo" name="rankItem.xml" path="/rankasset/"/>
   </resources>
-  <publish name="test1" path="G:\Github\fairygui\egret\resource\assets" genCode="true"/>
+  <publish name="kingkong" path="G:\Gitlab\mockey\resource\assets\fairygui" genCode="true"/>
 </packageDescription>

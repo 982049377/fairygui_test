@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,egret_icon_png,description_json,test1@atlas0_png,test1",
+			"keys": "bg_jpg,egret_icon_png,description_json,test1@atlas0_png,test1,third_png,first_png,second_png,self_png,kingkong@atlas0_png,kingkong_fui",
 			"name": "preload"
 		}
 	],
@@ -30,6 +30,36 @@
 			"url": "assets/test1.fui",
 			"type": "bin",
 			"name": "test1"
+		},
+		{
+			"url": "assets/third.png",
+			"type": "image",
+			"name": "third_png"
+		},
+		{
+			"url": "assets/first.png",
+			"type": "image",
+			"name": "first_png"
+		},
+		{
+			"url": "assets/second.png",
+			"type": "image",
+			"name": "second_png"
+		},
+		{
+			"url": "assets/self.png",
+			"type": "image",
+			"name": "self_png"
+		},
+		{
+			"url": "assets/kingkong@atlas0.png",
+			"type": "image",
+			"name": "kingkong@atlas0_png"
+		},
+		{
+			"url": "assets/kingkong.fui",
+			"type": "bin",
+			"name": "kingkong_fui"
 		}
 	]
 }

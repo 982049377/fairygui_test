@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="997,138" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="border" src="urqxi" xy="0,0" size="997,138">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n4_urqx" name="head" xy="155,26" size="85,85" restrictSize="85,85,85,85" type="rect"/>
+    <text id="n5_urqx" name="name" xy="291,26" size="464,93" font="Adobe 黑体 Std R" fontSize="71" align="center" vAlign="middle" autoSize="shrink" text="XXXXXXXXXX"/>
+    <text id="n7_urqx" name="score" xy="768,26" size="167,85" font="Adobe 黑体 Std R" fontSize="49" align="right" vAlign="middle" autoSize="none" bold="true" text="13515"/>
+    <graph id="n8_urqx" name="rank" xy="45,0" size="85,85" type="rect"/>
+  </displayList>
+  <Button/>
+</component>

@@ -85,6 +85,7 @@ var Main = (function (_super) {
      * Preload resource group is loaded
      */
     Main.prototype.onResourceLoadComplete = function (event) {
+        var _this = this;
         if (event.groupName == "preload") {
             this.stage.removeChild(this.loadingView);
             RES.removeEventListener(RES.ResourceEvent.GROUP_COMPLETE, this.onResourceLoadComplete, this);
@@ -95,8 +96,8 @@ var Main = (function (_super) {
             // fairygui.GRoot.inst.height = 1920;
             // fairygui.GRoot.inst.x = 0;
             // fairygui.GRoot.inst.y = 0;
-            fairygui.UIPackage.addPackage("test1");
-            var comp = fairygui.UIPackage.createObject("test", "index");
+            fairygui.UIPackage.addPackage("kingkong");
+            var comp = fairygui.UIPackage.createObject("kingkong", "index");
             fairygui.GRoot.inst.addChild(comp);
             this.addChild(fairygui.GRoot.inst.displayObject);
             var cont = comp.getChild("nnn").asCom;
@@ -121,6 +122,12 @@ var Main = (function (_super) {
             }, this);
             // console.log(fairygui.GRoot.inst.displayObject.width);
             // console.log(fairygui.GRoot.inst.displayObject.height);
+            var n2 = comp.getChild("n2");
+            n2.displayObject.touchEnabled = true;
+            n2.displayObject.addEventListener(egret.TouchEvent.TOUCH_TAP, function () {
+                var rankPanel = new RankPanel();
+                _this.addChild(rankPanel);
+            }, this);
         }
     };
     /**

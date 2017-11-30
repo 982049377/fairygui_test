@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,1920">
+  <displayList>
+    <image id="n0_urqx" name="n0" src="urqxj" xy="46,189"/>
+    <list id="n1_urqx" name="rankList" xy="53,267" size="973,1450" overflow="scroll" lineGap="8" defaultItem="ui://vw6d70clurqxo">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>
