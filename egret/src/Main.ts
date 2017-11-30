@@ -99,11 +99,36 @@ class Main extends egret.DisplayObjectContainer {
             // fairygui.GRoot.inst.x = 0;
             // fairygui.GRoot.inst.y = 0;
             fairygui.UIPackage.addPackage("test1");
-            let comp = fairygui.UIPackage.createObject("test", "index");
+            let comp = fairygui.UIPackage.createObject("test", "index") as fairygui.GComponent;
             fairygui.GRoot.inst.addChild(comp);
             this.addChild(fairygui.GRoot.inst.displayObject);
-            console.log(fairygui.GRoot.inst.displayObject.width);
-            console.log(fairygui.GRoot.inst.displayObject.height);
+
+            let cont = comp.getChild("nnn").asCom;
+            let control = comp.getController("control1");
+
+            let c1 = comp.getChild("c1");
+            c1.displayObject.touchEnabled = true;
+            c1.displayObject.addEventListener(egret.TouchEvent.TOUCH_TAP, () => {
+                // control.setSelectedIndex(0);
+                control.selectedIndex = 0;
+            }, this)
+
+            let chang1 = comp.getChild("chang1") as fairygui.GGraph;
+            let changto = new egret.Bitmap();
+            changto.texture = RES.getRes("bg_jpg");
+            changto.width = chang1.width;
+            changto.height = chang1.height;
+            chang1.setNativeObject(changto);
+
+            //可以直接更换图片的egret底层
+            c1.asImage.texture = changto.texture;
+
+            changto.touchEnabled = true;
+            changto.addEventListener(egret.TouchEvent.TOUCH_TAP, () => {
+                control.setSelectedIndex(1);
+            }, this)
+            // console.log(fairygui.GRoot.inst.displayObject.width);
+            // console.log(fairygui.GRoot.inst.displayObject.height);
         }
     }
 

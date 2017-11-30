@@ -99,8 +99,28 @@ var Main = (function (_super) {
             var comp = fairygui.UIPackage.createObject("test", "index");
             fairygui.GRoot.inst.addChild(comp);
             this.addChild(fairygui.GRoot.inst.displayObject);
-            console.log(fairygui.GRoot.inst.displayObject.width);
-            console.log(fairygui.GRoot.inst.displayObject.height);
+            var cont = comp.getChild("nnn").asCom;
+            var control_1 = comp.getController("control1");
+            var c1 = comp.getChild("c1");
+            c1.displayObject.touchEnabled = true;
+            c1.displayObject.addEventListener(egret.TouchEvent.TOUCH_TAP, function () {
+                // control.setSelectedIndex(0);
+                control_1.selectedIndex = 0;
+            }, this);
+            var chang1 = comp.getChild("chang1");
+            var changto = new egret.Bitmap();
+            changto.texture = RES.getRes("bg_jpg");
+            changto.width = chang1.width;
+            changto.height = chang1.height;
+            chang1.setNativeObject(changto);
+            //可以直接更换图片的egret底层
+            c1.asImage.texture = changto.texture;
+            changto.touchEnabled = true;
+            changto.addEventListener(egret.TouchEvent.TOUCH_TAP, function () {
+                control_1.setSelectedIndex(1);
+            }, this);
+            // console.log(fairygui.GRoot.inst.displayObject.width);
+            // console.log(fairygui.GRoot.inst.displayObject.height);
         }
     };
     /**

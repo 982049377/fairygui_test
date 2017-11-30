@@ -2,6 +2,7 @@
 	"codeGeneration":{
 		"classNamePrefix":"UI_",
 		"codePath":"C:\\Users\\王恒尊\\Desktop\\demo\\textGame\\resource\\assets",
+		"codeType":"",
 		"getMemberByName":false,
 		"ignoreNoname":false,
 		"memberNamePrefix":"m_",

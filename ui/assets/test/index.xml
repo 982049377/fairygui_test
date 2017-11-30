@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <component size="1080,1920">
+  <controller name="control1" pages="0,,1," selected="1"/>
   <displayList>
-    <image id="n0_qqea" name="n0" src="rveaa" xy="375,0" size="300,300"/>
-    <image id="n1_qqea" name="n1" src="rvea8" xy="780,810" size="300,300"/>
+    <image id="n0_qqea" name="nnn" src="rveaa" xy="388,1216" size="300,300">
+      <gearDisplay controller="control1" pages="1"/>
+      <gearXY controller="control1" pages="0,1" values="378,-305|388,1216" tween="true" duration="2.8"/>
+      <gearLook controller="control1" pages="0,1" values="0,0,0,1|1,0,0,1" tween="true" duration="5.7"/>
+    </image>
+    <image id="n1_qqea" name="c1" src="rvea8" xy="780,810" size="300,300"/>
     <image id="n2_qqea" name="n2" src="rvea5" xy="0,810" size="300,300"/>
     <image id="n3_qqea" name="n3" src="rvea7" xy="390,1620" size="300,300"/>
     <text id="n4_qqea" name="n4" xy="390,810" size="300,300" fontSize="80" autoSize="none" text="Monologue_whz"/>
+    <graph id="n5_urqx" name="chang1" xy="376,332" size="305,458" type="rect"/>
   </displayList>
 </component>

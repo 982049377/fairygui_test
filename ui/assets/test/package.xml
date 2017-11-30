@@ -16,5 +16,5 @@
     <component id="d7l6d" name="content.xml" path="/"/>
     <component id="d7l6e" name="contentBorder.xml" path="/"/>
   </resources>
-  <publish name="test1" path="C:\Users\王恒尊\Desktop\demo\textGame\resource\assets" genCode="true"/>
+  <publish name="test1" path="G:\Github\fairygui\egret\resource\assets" genCode="true"/>
 </packageDescription>
