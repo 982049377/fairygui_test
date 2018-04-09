@@ -5,7 +5,7 @@
     <image id="rvea2" name="i1.png" path="/asset/"/>
     <image id="rvea3" name="i2.png" path="/asset/"/>
     <image id="rvea4" name="i3.png" path="/asset/"/>
-    <image id="rvea5" name="i4.png" path="/asset/"/>
+    <image id="rvea5" name="i4.png" path="/userInfo/"/>
     <image id="rvea6" name="i5.png" path="/asset/"/>
     <image id="rvea7" name="i6.png" path="/asset/"/>
     <image id="rvea8" name="i7.png" path="/asset/"/>
@@ -25,6 +25,12 @@
     <image id="urqxm" name="third.png" path="/rankasset/"/>
     <component id="urqxn" name="rankPanel.xml" path="/" exported="true"/>
     <component id="urqxo" name="rankItem.xml" path="/rankasset/"/>
+    <image id="s263p" name="userInfo.png" path="/userInfo/"/>
+    <component id="s263q" name="userInfo.xml" path="/"/>
+    <component id="s263r" name="Head.xml" path="/userInfo/"/>
+    <image id="s263t" name="headMask.png" path="/userInfo/"/>
+    <component id="s263u" name="LV.xml" path="/userInfo/"/>
+    <component id="foz7v" name="test.xml" path="/"/>
   </resources>
   <publish name="kingkong" path="G:\Gitlab\mockey\resource\assets\fairygui" genCode="true"/>
 </packageDescription>

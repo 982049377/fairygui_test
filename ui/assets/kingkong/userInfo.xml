@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="988,352">
+  <displayList>
+    <image id="n0_s263" name="n0" src="s263p" xy="0,0"/>
+    <component id="n1_s263" name="head" src="s263r" xy="35,146" size="153,152"/>
+    <text id="n2_s263" name="name" xy="209,151" size="175,70" fontSize="61" color="#ffffff" vAlign="middle" autoSize="shrink" text="Name"/>
+    <text id="n4_s263" name="name" xy="209,236" size="175,70" fontSize="61" color="#ffffff" vAlign="middle" autoSize="shrink" text="LV.99"/>
+    <text id="n6_s263" name="gold" xy="713,159" size="186,55" fontSize="51" color="#e95983" align="right" vAlign="middle" autoSize="shrink" text="999"/>
+    <component id="n7_s263" name="exe" src="s263u" xy="412,243" size="547,35"/>
+  </displayList>
+</component>

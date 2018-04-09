@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,34" overflow="hidden" mask="n2_s263">
+  <displayList>
+    <graph id="n2_s263" name="mask" xy="0,0" size="400,34" type="rect" fillColor="#ff000000" corner="40">
+      <relation target="" sidePair="height-height,width-width"/>
+    </graph>
+    <graph id="n0_s263" name="n0" xy="0,0" size="400,34" type="rect" lineColor="#ffffffff">
+      <relation target="" sidePair="height-height,width-width"/>
+    </graph>
+  </displayList>
+</component>

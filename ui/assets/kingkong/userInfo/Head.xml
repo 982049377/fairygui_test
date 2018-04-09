@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,400" mask="n4_s263" reversedMask="true">
+  <displayList>
+    <image id="n4_s263" name="n4" src="s263t" xy="0,0" size="400,400" blend="none">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_s263" name="n1" src="rvea5" xy="0,0" size="400,400">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+</component>
